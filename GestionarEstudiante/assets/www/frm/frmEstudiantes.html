@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Datos Estudiantes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<script src="../js/jquery/jquery-1.7.1.js"></script>
+	<script src="../js/jquery/cordova.js"></script>	
+	<script src="../js/jquery/jquery.mobile-1.1.0.js"></script>
+	<link rel="stylesheet" href="../css/jquery/jquery.mobile-1.1.0.css" />
+</head>
+
+
+<body>
+    
+    <div data-role="page" id="estudiante">
+
+	<div data-role="header">
+		<h1>Estudiantes</h1>
+	</div><!-- /header -->
+
+		<center><img src="../img/Estudiantes.png"></center>
+
+	<div data-role="content">
+		<fieldset class="form">	
+				<p align="center">
+					<label for="txtCedula">Cedula:</label>
+					<input type="text" id="txtCedula"/>
+				</p>
+				<p align="center">
+				    <label for="txtNombre">Nombre:</label>
+				    <input type="text" id="txtNombre"/>
+				</p>
+				<p align="center">
+				    <label for="txtApellido">Apellido:</label>
+				    <input type="text" id="txtApellido"/>
+				</p>
+				<p align="center">
+				    <label for="txtDireccion">Direccion:</label>
+				    <input type="text" id="txtDireccion"/>
+				</p>
+				<p align="center">
+				    <label for="txtTelefono">Telefono:</label>
+				    <input type="text" id="txtTelefono"/>
+				</p>
+				<p align="center">
+				    <label for="txtEmail">Email:</label>
+				    <input type="text" id="txtEmail"/>
+				</p>
+				<p align="center"> 
+				    <center>
+				    	<input data-corners="true" data-inline="true" data-icon="grid"   data-theme="b" id="btnAceptar" type="button" value="Aceptar" />
+				    	<input data-corners="true" data-inline="true" data-icon="search" data-theme="b" id="btnConsultar"  type="button" value="Consultar" />				    	
+				    </center>
+				</p>
+		</fieldset>	
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer" align="center">
+			<h4>2016</h4>
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+
+    
+</body>
+</html>
